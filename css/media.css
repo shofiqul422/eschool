@@ -1,0 +1,399 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header start */
+  .logo {
+    width: 70%;
+  }
+  .c_menu ul li a {
+    padding: 0 20px !important;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .btn-signin {
+    width: 85px;
+    height: 35px;
+    font-size: 15px;
+  }
+  /* header end */
+  /* banner start */
+  .banner {
+    padding: 20px 0 40px;
+  }
+  .b_text {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .b_text h1 {
+    margin: 5px 0 10px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .b_pt {
+    line-height: 20px;
+    padding: 0 0;
+    font-size: 15px;
+  }
+  .btn_link {
+    margin-top: 12px;
+    width: 130px;
+    height: 37px;
+    padding: 6px 0;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  /* banner end */
+  /* feature start */
+  .feature {
+    padding: 0 0 60px;
+  }
+  .f_single {
+    margin: 20px 29px 0px;
+    padding: 50px 25px;
+  }
+  .f_img img {
+    width: 30%;
+  }
+  .f_single h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .f_single p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  /* feature end */
+  /* card start */
+  .courses_card {
+    padding: 0 0 60px;
+  }
+  .c_h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .c_item {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 25px 20px 20px;
+  }
+  .c_item h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .c_item p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .btn_c {
+    font-size: 15px;
+    padding: 4px 0px;
+    width: 110px;
+    height: 30px;
+  }
+  .c_footer {
+    margin-top: 30px;
+  }
+  .ul_li:not(:last-child) {
+    margin-right: 2px;
+  }
+  .c_left ul li img, .c_right ul li img {
+    width: 17px;
+  }
+  .c_left ul li span, .c_right ul li span {
+    font-size: 13px;
+  }
+  /* card end */
+  /* Testimonial start */
+  .comment {
+    margin-top: 40px;
+  }
+  .t_img img {
+    width: 50%;
+  }
+  .t_text {
+    margin-top: 25px;
+  }
+  .t_text p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .button_ind {
+    bottom: -70px;
+  }
+  .button_ind [data-bs-target] {
+    width: 13px;
+    height: 13px;
+  }
+  /* Testimonial end */
+  /* details start */
+  .details {
+    padding: 35px 0 25px;
+  }
+  .d_text {
+    margin-bottom: 20px;
+    padding: 0px 0px 0;
+    text-align: center;
+  }
+  .c_list {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .d_text p {
+    font-size: 15px;
+  }
+  .c_list ul li h3 {
+    font-size: 17px;
+    line-height: 15px;
+  }
+  .c_list ul li a {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  /* details end */
+  /* footer start */
+  .p_text p {
+    font-size: 13px;
+  }
+  /* footer end */
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header start */
+  .logo {
+    width: 85%;
+  }
+  .btn-signin {
+    width: 100px;
+    height: 40px;
+  }
+  /* header end */
+  /* banner start */
+  .banner {
+    padding: 30px 0 50px;
+  }
+  .b_text {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .b_text h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .b_pt {
+    line-height: 25px;
+    padding: 0 0;
+  }
+  .btn_link {
+    margin-top: 15px;
+    width: 140px;
+    height: 40px;
+    padding: 8px 0;
+  }
+  .banner-img {
+    width: 85%;
+  }
+  /* banner end */
+  /* feature start */
+  .feature {
+    padding: 0 0 70px;
+  }
+  .f_single {
+    margin-top: 25px;
+    padding: 55px 30px;
+  }
+  /* feature end */
+  /* card start */
+  .courses_card {
+    padding: 0 0 70px;
+  }
+  .c_item {
+    margin-top: 45px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .ul_li:not(:last-child) {
+    margin-right: 0px;
+  }
+  .c_left ul li img, .c_right ul li img {
+    width: 20px;
+  }
+  .c_left ul li span, .c_right ul li span {
+    font-size: 14px;
+  }
+  /* card end */
+  /* Testimonial start */
+  .comment {
+    margin-top: 50px;
+  }
+  .t_text {
+    margin-top: 0;
+  }
+  .t_text p {
+    line-height: 24px;
+    font-size: 15px;
+  }
+  .button_ind {
+    bottom: -70px;
+  }
+  .button_ind [data-bs-target] {
+    width: 13px;
+    height: 13px;
+  }
+  /* Testimonial end */
+  /* details start */
+  .details {
+    padding: 45px 0 45px;
+  }
+  .d_text {
+    margin-bottom: 35px;
+    padding: 0 65px 0;
+    text-align: center;
+  }
+  .c_list {
+    margin-left: 25px;
+  }
+  /* details end */
+  /* footer start */
+  .p_text p {
+    font-size: 15px;
+  }
+  /* footer end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start */
+  .btn-signin {
+    width: 100px;
+    height: 40px;
+  }
+  /* header end */
+  /* banner start */
+  .banner {
+    padding: 45px 0 60px;
+  }
+  .b_text {
+    padding-top: 25px;
+    text-align: center;
+  }
+  .b_text h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .b_pt {
+    line-height: 30px;
+    padding: 0 45px;
+  }
+  .banner-img {
+    width: 85%;
+  }
+  /* banner end */
+  /* feature start */
+  .feature {
+    padding: 0 0 80px;
+  }
+  .f_single {
+    margin-top: 30px;
+    padding: 70px 60px;
+  }
+  /* feature end */
+  /* card start */
+  .c_item {
+    margin-top: 55px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  /* card end */
+  /* Testimonial start */
+  .comment {
+    margin-top: 60px;
+  }
+  .t_img img {
+    width: 85%;
+  }
+  .t_text {
+    margin-top: 10px;
+  }
+  /* Testimonial end */
+  /* details start */
+  .details {
+    padding: 50px 0 60px;
+  }
+  .d_text {
+    margin-bottom: 50px;
+    padding: 0 120px 0;
+    text-align: center;
+  }
+  .c_list {
+    margin-left: 40px;
+  }
+  /* details end */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* feature start */
+  .feature {
+    padding: 35px 0 90px;
+  }
+  .f_single {
+    padding: 50px 10px;
+  }
+  .f_single h2 {
+    line-height: 30px;
+  }
+  .f_single p {
+    line-height: 30px;
+  }
+  /* feature end */
+  /* card start */
+  .c_left ul li img, .c_right ul li img {
+    width: 20px;
+  }
+  .ul_li:not(:last-child) {
+    margin-right: 3px;
+  }
+  .c_left ul li span, .c_right ul li span {
+    font-size: 14px;
+  }
+  /* card end */
+  /* Testimonial start */
+  .comment {
+    margin-top: 55px;
+  }
+  .t_img img {
+    width: 100%;
+  }
+  .t_text {
+    margin-top: 10px;
+  }
+  /* Testimonial end */
+  /* details start */
+  .c_list {
+    margin-left: 10px;
+  }
+  /* details end */
+}
+
+ /* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Testimonial start */
+  .t_img img {
+    width: 85%;
+  }
+  /* Testimonial end */
+  /* details start */
+  .c_list {
+    margin-left: 35px;
+  }
+  /* details end */
+}
+
+/*  Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+}
